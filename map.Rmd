@@ -1,0 +1,45 @@
+---
+title: "map"
+author: "jpham916"
+date: "May 26, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Map demo 
+## Creates html page with embedded maps
+##mapme app
+#addTiles: add the street servers and layers? look more into this for advanced GIS
+
+
+``` {r}
+library(leaflet)
+leaflet() %>%
+  setView(174.764, -36.877, zoom = 16) %>% 
+  addTiles() %>%
+  addMarkers(174.764, -36.877, popup = "Maungawhau") 
+```
+
+
+
+
+#Shiny
+#Every shiny app is mainteained by a pc running R
+#allows you to work remotely or offline and test if the app works
+
+
+#Break up instructions in 2 diff ways
+#Server instructions to tell pc what to do, and user interface which is how client can maniuplate 
+
+#Server side
+#client side
+
+#fluidpage package can formats pages from a browser and smooshes it to fit on phone
+
+
+#Shiny when you run the code, it creates a server page fo you
+
+

@@ -1,0 +1,30 @@
+---
+title: "shiny"
+author: "jpham916"
+date: "May 26, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Shiny and Online publishing lecture
+
+
+#A slide will break everywhere there is a "##" 
+#When creating an R markdaown, the output options are there for decfault to slect the format of output  document
+
+#YAML- yet another markdown language refers to the "---"
+#key:value
+
+
+####NOTEBOOKS
+#Save entire markdown document including code
+#Has a drop down selector to show/hide code chunks together or individually
+#Notebook includes data frames/tables that allow you to scroll and visualize data
+#Using the same dropdown to hide/show code, you can also download the Rmd markdown file.
+
+
+
+
